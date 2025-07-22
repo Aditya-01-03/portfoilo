@@ -1,0 +1,59 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website with smooth animations and excellent user experience",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000 || python3 -m http.server 8000 || npx serve .",
+    "dev": "npx live-server --port=8000 --open=/",
+    "build": "echo 'No build process required for static site'",
+    "deploy": "echo 'Deploy using your preferred platform (GitHub Pages, Netlify, Vercel, etc.)'",
+    "optimize-images": "echo 'Use tools like TinyPNG, ImageOptim, or Squoosh to optimize images'",
+    "minify": "echo 'Install html-minifier, cssnano, and uglify-js for minification'",
+    "lighthouse": "npx lighthouse http://localhost:8000 --output=html --output-path=./lighthouse-report.html",
+    "test": "echo 'No tests configured. Test manually by opening index.html in a browser'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "responsive",
+    "modern",
+    "html",
+    "css",
+    "javascript",
+    "animations",
+    "aos",
+    "frontend",
+    "web-development"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio-website.git"
+  },
+  "homepage": "https://yourusername.github.io/portfolio-website",
+  "bugs": {
+    "url": "https://github.com/yourusername/portfolio-website/issues"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0",
+    "lighthouse": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "dependencies": {},
+  "optionalDependencies": {
+    "html-minifier": "^4.0.0",
+    "cssnano": "^6.0.0",
+    "uglify-js": "^3.17.0"
+  }
+} 
